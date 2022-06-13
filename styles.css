@@ -1,1 +1,45 @@
 /* Write your CSS here! */
+#mainHeading{
+    color: red;
+    text-align: center;
+}
+#secondaryMainHeading{
+    color:rgb(255, 166, 0);
+    text-align: center;
+}
+#thirdMainHeading{
+    color:rgb(212, 74, 24);
+    text-align: center;
+}
+body {
+    background-color: rgb(171, 237, 236);
+    margin-block: 8px;
+    display:block;
+}
+p{ 
+    font-size: large;
+    padding-left: 20px;
+    padding-right:20px;
+}
+.funParagraph{
+    color: green;
+    font-size:x-large;
+    border-style:groove;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+.pics{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    border-style:groove;
+}
+.figcaption{
+    font-size: larger;
+
+}
